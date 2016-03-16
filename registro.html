@@ -44,7 +44,15 @@
                   <option value="other">otro</option>
                 </select>
                 <br> 
-                Codigo de seguridad: <input type="number" id="codigo" myFunction()> 
+                Codigo de seguridad: <input type="number" id="codigo">
+                  <button type="button" onclick=myFunction()>Random</button><br>
+                  <script>
+                  function myFunction() {
+                       codigo.value= Math.floor((Math.random() * 5684500));
+                  }
+
+                  </script>
+ 
                 Telefono: <input type="tel" name="usrtel"><br>
 
                  <br>
