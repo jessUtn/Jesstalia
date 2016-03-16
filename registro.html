@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+  <head>
+        <meta charset="UTF-8">
+        <title>Jesstalia</title> 
+        <link rel="stylesheet" href="css/style.css"> 
+  </head>
+
+  <body>
+
+    <div class="vid-container">
+    <video id="Video1" class="bgvid back" autoplay="false" muted="muted" preload="auto" loop>
+        <source src="http://shortcodelic1.manuelmasiacsasi.netdna-cdn.com/themes/geode/wp-content/uploads/2014/04/milky-way-river-1280hd.mp4.mp4" type="video/mp4">
+    </video> 
+
+    <center>
+        <center><h1>
+          <a href="login.html">Login</a> 
+        </h1></center>      
+  
+    <div class="inner-container"> 
+
+  
+   
+
+      <form action="action_page.php">
+                Usuario: <input type="text" name="user"><br>
+                Clave: <br><input type="password" name="psw1"><br><input type="password" name="psw2"><br>
+                E-mail:  <input type="email" name="email"><br>
+                Naciste: <input type="date" name="nacio"><br>
+       
+                Sexo:
+                 <input type="radio" name="gender" value="mujer"> Femenino           
+                 <input type="radio" name="gender" value="hombre"> Masculino
+                 <input type="radio" name="gender" value="otro"> Otro 
+                 <br>
+
+                Orientacion:
+                <select>
+                  <option value="hetero">Heterosexual</option>
+                  <option value="homo">Homosexual</option>
+                  <option value="bi">Bisexual</option>
+                  <option value="pan">Pansexual</option>
+                  <option value="other">otro</option>
+                </select>
+                <br> 
+                Codigo de seguridad: <input type="number" id="codigo" myFunction()> 
+                Telefono: <input type="tel" name="usrtel"><br>
+
+                 <br>
+                 <input type="checkbox" name="acepta" value="resp"> Aceptas los terminos y condiciones jamas escritos??<br>
+                 <p><button>Registrame</button></p> 
+      </form> 
+
+      <br>
+    </div> 
+    </center>
+
+
+  </body>
+</html>
